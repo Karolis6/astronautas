@@ -1,16 +1,46 @@
-header{
-    width: 800px;
-    margin-left: calc(50%-500px);
-    background-color: yellow;
-}
-main{
-    width: 800px;
-    margin-left: calc(50%-500px);
-    background-color: green;
+body{
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
+
+header,
+main,
 footer{
+    display: inline-block;
     width: 800px;
-    margin-left: calc(50%-500px);
-    background-color:red;
+    margin-left: calc(20% - 200px);
+    background-color: pink;
+    margin-bottom: 20px;
+    
+}
+header {
+    margin-top: 50px;
+}
+img{
+    object-fit: contain;
+    width: 35px;
+    height: auto;
+    object-position: left;
+    float: left;
+}
+nav{float: right;
+    margin-top: 10px;
+}
+a{  display: inline-block;
+    margin: 0;
+    margin-left: 2em;
+    color: black;
+    font-size: 20px;
+    line-height: 1em;
+    text-decoration: none;
+   
+}
+a:first-child{
+    margin-left: 0px;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
 }
